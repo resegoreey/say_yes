@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My answer 💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Drifting photo background -->
+    <div class="bg" id="bg" aria-hidden="true"></div>
+
+    <main class="stage">
+      <section class="card">
+        <p class="eyebrow">for <span id="herName"></span> 🌸</p>
+        <h1>Yes! <span class="beat">💖</span></h1>
+
+        <!-- Mimics her printout -->
+        <div class="ticket">
+          <p class="ticket-q">Will you be my girlfriend?</p>
+          <div class="opt">
+            <span class="box" id="box"></span><span>Yes</span>
+          </div>
+          <div class="opt">
+            <span class="box" id="box2"></span><span>Yes (a very big one)</span>
+          </div>
+        </div>
+
+        <p class="thanks">
+          Thank you for being such an amazing person, and for asking me. I'm so
+          happy to be your girlfriend.
+        </p>
+
+        <div class="buttons">
+          <button class="btn" id="letterBtn">Open my letter 💌</button>
+          <button class="btn alt" id="reasonBtn">Why you're amazing ✨</button>
+          <!-- <button class="btn alt" id="dateBtn">Pick our first date 🎲</button>
+        <button class="btn" id="hugBtn">Send a hug 🤗</button> -->
+        </div>
+
+        <div class="bubble" id="reasonBubble" hidden></div>
+        <div class="bubble date" id="dateBubble" hidden></div>
+        <p class="hugs" id="hugCount" hidden></p>
+
+        <article class="letter" id="letter" hidden></article>
+
+        <p class="footer">made with love by <span id="fromName"></span> 💕</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
